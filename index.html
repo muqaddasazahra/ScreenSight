@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- ============== Stert Header Section ============== -->
+    <header id="header">
+        <div class="inner">
+            <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+            <nav id="navbar">
+                <ul>
+                    <li class="list-item"><a href="#">Use Ceses</a></li>
+                    <li class="list-item"><a href="#">Pricing</a></li>
+                    <li class="list-item"><a href="#">About Us</a></li>
+                    <li class="list-item"><a href="#">Log in</a></li>
+                </ul>
+                <button>Get Screensight for Free</button>
+            </nav>
+            <button class="toggle-btn" onclick="menutoggle()"><span></span></button>
+        </div>
+    </header>
+    <!-- ============== End Header Section ============== -->
+
+    <!-- ============== Stert Home Section ============== -->
+    <section id="home">
+        <div class="inner">
+            <div class="detail">
+                <h1><span class="icon"></span>Record it<span></span> Send it<span></span></h1>
+                <p>Record Video messages of your screen, cam, or both.<br> then typing an email or meeting live</p>
+                <button>Get Screensight for Free</button>
+                <p>For Mac, Windows, iOS and Android</p>
+            </div>
+            <div class="img">
+                <img class="img-1" src="./img/home-pic.png" alt="">
+                <div class="video">
+                    <h1 class="Playbutton far fa-play-circle" onclick="VideoPlay(this)"></h1>
+                    <video>
+                        <source src="./video/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="circle"></div>
+            <div class="dot-circle">
+                <img src="./img/dots.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ============== End Home Section ============== -->
+
+    <!-- ============== Stert take Back Section ============== -->
+    <section id="take-back">
+        <div class="inner">
+            <div class="section-header">
+                <h1>Take back your time<span></span></h1>
+                <p>Sending a Screensight is more efficient then typing long emails or spending your day in meeting having conversation that don't need to happen in real-time.</p>
+            </div>
+            <div class=" section-data swiper DontSwiper">
+                <div class="swiper-wrapper">
+                    <!-- Slide 1 -->
+                    <div class="slider-post swiper-slide">
+                        <div class="img">
+                            <div class="img-1">
+                                <img src="./img/section-1.png" alt="">
+                                <div class="video">
+                                    <h1 class="Playbutton far fa-play-circle" onclick="VideoPlay(this)"></h1>
+                                    <video>
+                                        <source src="./video/video.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                            <img class="img-2" src="./img/square dots.svg" alt="">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 500" xml:space="preserve">
+                            <g transform="matrix(0.76 0 0 0.76 249.84 250.37)" id="wimxlhsXmVuBQgshsWhA-">
+                                <path style="fill: var(--bg-3);fill-rule: nonzero;opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -170 -250 L 163.98820999999998 -250 L 163.98820999999998 -250 C 255.67398999999997 -250 330 -175.67399 330 -83.98821000000001 L 330 112.68338 L 330 112.68338 C 330 188.52125999999998 268.52125 250 192.68338 250 L -57.40513999999999 250 L -57.40513999999999 250 C -119.58955999999999 250 -170 199.58957 -170 137.40514000000002 L -170 10.808110000000013 L -170 10.808110000000013 C -170 -5.190409999999986 -163.55033 -20.513359999999988 -152.1093 -31.696169999999988 C -140.66826 -42.878979999999984 -125.20209 -48.97721999999999 -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 C -76.29185999999999 -47.86054999999999 -50.00000999999999 -20.96157999999999 -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 C -50.00000999999999 88.19868 11.801310000000008 150.00000000000003 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 C 166.44104000000004 150.00000000000003 229.99999000000003 86.44105000000002 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 C 229.99999000000003 -79.24437999999996 159.24436000000003 -149.99999999999997 71.96288000000001 -149.99999999999997 L -170.00000999999997 -149.99999999999997 L -330.00001 -149.99999999999997 L -330.00001 -249.99999999999997 z" stroke-linecap="round"/>
+                            </g>
+                        </svg>
+                        </div>
+                        <div class="detail">
+                            <h1>Talk up to 6 times faster then you type</h1>
+                            <p>with Screensight, you can capture your screen, voice ,face and instantly share your video in less time then it would take to type an email. </p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Record your screen, webcam or both.</li>
+                                <li><i class="fas fa-check-circle"></i> Send video emails , post to your workplace chat.</li>
+                                <li><i class="fas fa-check-circle"></i> Share your video link anywhere.</li>
+                                <li><i class="fas fa-check-circle"></i> See who played your video and when.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slider-post swiper-slide">
+                        <div class="img">
+                            <div class="img-1">
+                                <img src="./img/section-1.png" alt="">
+                                <div class="video">
+                                    <h1 class="Playbutton far fa-play-circle" onclick="VideoPlay(this)"></h1>
+                                    <video>
+                                        <source src="./video/video.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                            <img class="img-2" src="./img/square dots.svg" alt="">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 500" xml:space="preserve">
+                            <g transform="matrix(0.76 0 0 0.76 249.84 250.37)" id="wimxlhsXmVuBQgshsWhA-">
+                                <path style="fill: var(--bg-3);fill-rule: nonzero;opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -170 -250 L 163.98820999999998 -250 L 163.98820999999998 -250 C 255.67398999999997 -250 330 -175.67399 330 -83.98821000000001 L 330 112.68338 L 330 112.68338 C 330 188.52125999999998 268.52125 250 192.68338 250 L -57.40513999999999 250 L -57.40513999999999 250 C -119.58955999999999 250 -170 199.58957 -170 137.40514000000002 L -170 10.808110000000013 L -170 10.808110000000013 C -170 -5.190409999999986 -163.55033 -20.513359999999988 -152.1093 -31.696169999999988 C -140.66826 -42.878979999999984 -125.20209 -48.97721999999999 -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 C -76.29185999999999 -47.86054999999999 -50.00000999999999 -20.96157999999999 -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 C -50.00000999999999 88.19868 11.801310000000008 150.00000000000003 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 C 166.44104000000004 150.00000000000003 229.99999000000003 86.44105000000002 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 C 229.99999000000003 -79.24437999999996 159.24436000000003 -149.99999999999997 71.96288000000001 -149.99999999999997 L -170.00000999999997 -149.99999999999997 L -330.00001 -149.99999999999997 L -330.00001 -249.99999999999997 z" stroke-linecap="round"/>
+                            </g>
+                        </svg>
+                        </div>
+                        <div class="detail">
+                            <h1>Talk up to 6 times faster then you type</h1>
+                            <p>with Screensight, you can capture your screen, voice ,face and instantly share your video in less time then it would take to type an email. </p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Record your screen, webcam or both.</li>
+                                <li><i class="fas fa-check-circle"></i> Send video emails , post to your workplace chat.</li>
+                                <li><i class="fas fa-check-circle"></i> Share your video link anywhere.</li>
+                                <li><i class="fas fa-check-circle"></i> See who played your video and when.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slider-post swiper-slide">
+                        <div class="img">
+                            <div class="img-1">
+                                <img src="./img/section-1.png" alt="">
+                                <div class="video">
+                                    <h1 class="Playbutton far fa-play-circle" onclick="VideoPlay(this)"></h1>
+                                    <video>
+                                        <source src="./video/video.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                            <img class="img-2" src="./img/square dots.svg" alt="">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 500" xml:space="preserve">
+                            <g transform="matrix(0.76 0 0 0.76 249.84 250.37)" id="wimxlhsXmVuBQgshsWhA-">
+                                <path style="fill: var(--bg-3);fill-rule: nonzero;opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -170 -250 L 163.98820999999998 -250 L 163.98820999999998 -250 C 255.67398999999997 -250 330 -175.67399 330 -83.98821000000001 L 330 112.68338 L 330 112.68338 C 330 188.52125999999998 268.52125 250 192.68338 250 L -57.40513999999999 250 L -57.40513999999999 250 C -119.58955999999999 250 -170 199.58957 -170 137.40514000000002 L -170 10.808110000000013 L -170 10.808110000000013 C -170 -5.190409999999986 -163.55033 -20.513359999999988 -152.1093 -31.696169999999988 C -140.66826 -42.878979999999984 -125.20209 -48.97721999999999 -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 C -76.29185999999999 -47.86054999999999 -50.00000999999999 -20.96157999999999 -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 C -50.00000999999999 88.19868 11.801310000000008 150.00000000000003 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 C 166.44104000000004 150.00000000000003 229.99999000000003 86.44105000000002 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 C 229.99999000000003 -79.24437999999996 159.24436000000003 -149.99999999999997 71.96288000000001 -149.99999999999997 L -170.00000999999997 -149.99999999999997 L -330.00001 -149.99999999999997 L -330.00001 -249.99999999999997 z" stroke-linecap="round"/>
+                            </g>
+                        </svg>
+                        </div>
+                        <div class="detail">
+                            <h1>Talk up to 6 times faster then you type</h1>
+                            <p>with Screensight, you can capture your screen, voice ,face and instantly share your video in less time then it would take to type an email. </p>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Record your screen, webcam or both.</li>
+                                <li><i class="fas fa-check-circle"></i> Send video emails , post to your workplace chat.</li>
+                                <li><i class="fas fa-check-circle"></i> Share your video link anywhere.</li>
+                                <li><i class="fas fa-check-circle"></i> See who played your video and when.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <!-- ============== End Take Back Section ============== -->
+
+    <!-- ============== Start Communi Section ============== -->
+    <section id="Communi">
+        <div class="inner">
+            <div class="detail">
+                <h1>Communicate with ease<span></span></h1>
+                <p>Maximum effeciency features easy communication</p>
+                <ul>
+                    <li>
+                        <h2 class="is"><i class="fas fa-share-alt"></i> Instant Sharing</h2>
+                        <div>
+                            <p>Quickly share your recording via instant messing app or email.</p>
+                            <a href="#">learn more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="fr"><i class="fas fa-record-vinyl"></i> Fast Recording</h2>
+                        <div>
+                            <p>Quickly share your recording via instant messing app or email.</p>
+                            <a href="#">learn more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="ee"><i class="fas fa-pencil-alt"></i>Easy Editing</h2>
+                        <div>
+                            <p>Quickly share your recording via instant messing app or email.</p>
+                            <a href="#">learn more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="er"><i class="fas fa-surprise"></i>Emoji Reactions</h2>
+                        <div>
+                            <p>Quickly share your recording via instant messing app or email.</p>
+                            <a href="#">learn more</a>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="cv"><i class="fas fa-crop-alt"></i>Controlled Viewing</h2>
+                        <div>
+                            <p>Quickly share your recording via instant messing app or email.</p>
+                            <a href="#">learn more</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="img">
+                <img class="img-1" src="./img/section-2.png" alt="">
+                <img class="img-2" src="./img/section-2-chet.png" alt="">
+                <img class="img-3" src="./img/square dots.svg" alt="">
+                <img src="./img/Circles.svg" alt="" class="img-4">
+            </div>
+        </div>
+    </section>
+    <!-- ============== End Communi Section ============== -->
+
+    <!-- ============== Stert take Back Section ============== -->
+    <section id="Dont-ask">
+        <div class="inner">
+            <div class="section-header">
+                <h1>Don't ask us, ask them<span></span></h1>
+                <p>Here why people use Screensight as one of their go to productivity apps</p>
+            </div>
+            <div class="swiper DontSwiper">
+                <div class="swiper-wrapper section-data">
+                    <!-- Slide 1 -->
+                    <div class="slider-post swiper-slide">
+                        <div class="img">
+                            <div class="img-1">
+                                <img class="img-3" src="./img/Text/1.jfif" alt="">
+                                <img class="img-2" src="./img/square dots.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination-box">
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="detail">
+                            <p>" Screensight allows me to more personally connect with people without having to do 75 different one-on-one calls, which is just impossible at scale."</p>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h1>Jason Holms </h1>
+                            <h2>Sales Representative</h2>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="slider-post swiper-slide">
+                        <div class="img">
+                            <div class="img-1">
+                                <img class="img-3" src="./img/Text/2.jfif" alt="">
+                                <img class="img-2" src="./img/square dots.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination-box">
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <div class="detail">
+                            <p>" Screensight allows me to more personally connect with people without having to do 75 different one-on-one calls, which is just impossible at scale."</p>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h1>Jason Holms </h1>
+                            <h2>Sales Representative</h2>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="slider-post swiper-slide">
+                        <div class="img">
+                            <div class="img-1">
+                                <img class="img-3" src="./img/Text/3.jfif" alt="">
+                                <img class="img-2" src="./img/square dots.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination-box">
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+                        <div class="detail">
+                            <p>" Screensight allows me to more personally connect with people without having to do 75 different one-on-one calls, which is just impossible at scale."</p>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h1>Jason Holms </h1>
+                            <h2>Sales Representative</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============== End Take Back Section ============== -->
+
+    <!-- ============== Stert Built Section ============== -->
+    <section id="Built">
+        <div class="inner">
+
+            <div class="img">
+                <img src="./img/section-5.png" alt="" class="img-1">
+            </div>
+            <div class="detail">
+                <h1 class="heading">Built for your Team<span></span></h1>
+                <div class="team">
+                    <h1>Team Meeting</h1>
+                    <h2>Keep everyone in the loop</h2>
+                    <p>Provide design feed and visual direction to your design team.</p>
+                </div>
+                <div class="eng">
+                    <h1>Engineering</h1>
+                    <h2>Code Reviews</h2>
+                    <p>Provide design feed and visual direction to your design team.</p>
+                </div>
+                <div class="design">
+                    <h1>Design</h1>
+                    <h2>Visual design feedbacks</h2>
+                    <p>Provide design feed and visual direction to your design team.</p>
+                </div>
+                <div class="sales">
+                    <h1>Seles</h1>
+                    <h2>Sell your product remotely</h2>
+                    <p>Provide design feed and visual direction to your design team.</p>
+                </div>
+                <button>Read Use Cases</button>
+            </div>
+            <div class="backgrond-design">
+                <img src="./img/section-5-back.svg" alt="" class="img-0">
+                <img src="./img/Circles.svg" alt="" class="img-1">
+                <img src="./img/Circle.svg" alt="" class="img-2">
+                <img src="./img/dots.svg" alt="" class="img-3">
+            </div>
+        </div>
+    </section>
+    <!-- ============== End Built Section ============== -->
+
+    <!-- ============== Stert Text Section ============== -->
+    <section id="Text" onresize="myFunction()">
+        <div class="inner">
+            <div class="section-header">
+                <h1>Text is not enough<span></span></h1>
+                <p>Video Conveys emotion and tone of voice that text simply can't empowering you to build strong relationships even when you're across the globe.</p>
+            </div>
+            <div class="section-data">
+                <div class="img">
+                    <div class="swiper TextSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="img-1 swiper-slide">
+                                <div class="video">
+                                    <h1 class="Playbutton far fa-play-circle" onclick="VideoPlay(this)"></h1>
+                                    <video>
+                                        <source src="./video/video-1.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="img-2 swiper-slide">
+                                <div class="video">
+                                    <h1 class="Playbutton far fa-play-circle" onclick="VideoPlay(this)"></h1>
+                                    <video>
+                                        <source src="./video/video-1.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="img-3 swiper-slide">
+                                <div class="video">
+                                    <h1 class="Playbutton far fa-play-circle" onclick="VideoPlay(this)"></h1>
+                                    <video>
+                                        <source src="./video/video-1.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backgrond">
+                <div class="lift">
+                    <img class="img-1" src="./img/Text/Circles.svg" alt="">
+                    <img class="img-2" src="./img/Text/dots.svg" alt="">
+                    <img class="img-3" src="./img/Text/Circle.svg" alt="">
+                </div>
+                <div class="right">
+                    <img class="img-1" src="./img/Text/Circles.svg" alt="">
+                    <img class="img-2" src="./img/Text/dots.svg" alt="">
+                    <img class="img-3" src="./img/Text/Circle.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============== End Text Section ============== -->
+
+    <!-- ============== Stert Loved Section ============== -->
+    <section id="Loved">
+        <div class="inner">
+            <h1>Loved By Companies</h1>
+            <div class="brand">
+                <img src="./img/brand/1.png" alt="">
+                <img src="./img/brand/2.png" alt="">
+                <img src="./img/brand/3.png" alt="">
+                <img src="./img/brand/4.png" alt="">
+                <img src="./img/brand/5.png" alt="">
+                <img src="./img/brand/6.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- ============== End Loved Section ============== -->
+
+    <!-- ============== Stert work Section ============== -->
+    <section id="work">
+        <div class="inner">
+            <h1>Works where you work</h1>
+            <div>
+                <button>Get Screensight for Free</button>
+                <p>For Mac, Windows, iOS and Android</p>
+            </div>
+            <img src="./img/section-7-right.svg" alt="" class="svg-1">
+            <img src="./img/section-7-lift.svg" alt="" class="svg-2">
+            <img class="circles" src="./img/Circles.svg" alt="">
+            <img class="dots" src="./img/dots-2.svg" alt="">
+        </div>
+    </section>
+    <!-- ============== end work Section ============== -->
+
+    <!-- ============== Stert footer Section ============== -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="footer-up">
+                <div class="about">
+                    <img src="./img/logo-2.png" alt="">
+                    <p>With Screensight, you can capture your screen, voice, and face and instantly share your video in less time than it would take type an email.</p>
+                </div>
+                <menu>
+                    <ul>
+                        <h1>products</h1>
+                        <li> <a href="#"> Use Cases</a></li>
+                        <li> <a href="#"> iOS App</a></li>
+                        <li> <a href="#"> Screen Recorder</a></li>
+                        <li> <a href="#"> Help Center</a></li>
+                        <li> <a href="#"> What's New</a></li>
+                        <li> <a href="#"> System Status</a></li>
+                        <li> <a href="#"> Roadmap</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Company</h1>
+                        <li> <a href="#"> About Us</a></li>
+                        <li> <a href="#"> Careers</a></li>
+                        <li> <a href="#"> Press</a></li>
+                        <li> <a href="#"> Blog</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Legal</h1>
+                        <li><a href="#">Privacy For Humans</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                    </ul>
+                </menu>
+            </div>
+            <div class="footer-bar">
+                <p>&copy;2021 Screensight All Right Reserved.</p>
+                <div class="sm-box">
+                    <p>Follow Us</p>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 500" xml:space="preserve">
+                <g transform="matrix(0.76 0 0 0.76 249.84 250.37)" id="wimxlhsXmVuBQgshsWhA-">
+                    <path style="fill: #151e42 ;fill-rule: nonzero;opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(0, 0)" d="M -170 -250 L 163.98820999999998 -250 L 163.98820999999998 -250 C 255.67398999999997 -250 330 -175.67399 330 -83.98821000000001 L 330 112.68338 L 330 112.68338 C 330 188.52125999999998 268.52125 250 192.68338 250 L -57.40513999999999 250 L -57.40513999999999 250 C -119.58955999999999 250 -170 199.58957 -170 137.40514000000002 L -170 10.808110000000013 L -170 10.808110000000013 C -170 -5.190409999999986 -163.55033 -20.513359999999988 -152.1093 -31.696169999999988 C -140.66826 -42.878979999999984 -125.20209 -48.97721999999999 -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 L -109.20773999999999 -48.61204999999999 C -76.29185999999999 -47.86054999999999 -50.00000999999999 -20.96157999999999 -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 L -50.00000999999999 11.962890000000009 C -50.00000999999999 88.19868 11.801310000000008 150.00000000000003 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 L 88.03710000000002 150.00000000000003 C 166.44104000000004 150.00000000000003 229.99999000000003 86.44105000000002 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 L 229.99999000000003 8.037110000000041 C 229.99999000000003 -79.24437999999996 159.24436000000003 -149.99999999999997 71.96288000000001 -149.99999999999997 L -170.00000999999997 -149.99999999999997 L -330.00001 -149.99999999999997 L -330.00001 -249.99999999999997 z" stroke-linecap="round"/>
+                </g>
+            </svg>
+        </div>
+    </footer>
+    <!-- ============== End footer Section ============== -->
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
